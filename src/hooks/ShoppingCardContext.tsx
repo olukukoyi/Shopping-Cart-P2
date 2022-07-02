@@ -50,6 +50,7 @@ export const ShoppingCartProvider = ({
           }
         });
       }
+      return cart;
     });
   };
   const decreaseCartQuantity = (id: number) => {
@@ -67,6 +68,7 @@ export const ShoppingCartProvider = ({
           }
         });
       }
+      return cart;
     });
   };
 
